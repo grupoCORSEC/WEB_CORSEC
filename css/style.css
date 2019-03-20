@@ -30,6 +30,17 @@
 .subTitulo {
   font-size: 40px; }
 
+.tablaChica {
+  width: 40%; }
+
+.tablaGrande {
+  width: 60%; }
+
+.pie {
+  background-color: #EDEEF0;
+  background-image: url(../img/overlay.png), url(../img/footer.svg);
+  background-size: 128px 128px,	100% 100%; }
+
 /*
 
 
@@ -42,14 +53,14 @@ body{
 
 */
 /* estilos de prueba */
-/*.container {
-  border: 1px solid red; }
+/*	.container {
+	  border: 1px solid red; }
 
-.row {
-  border: 1px solid blue; }
+	.row {
+	  border: 1px solid blue; }
 
-.row > * {
-  border: 1px solid green; }*/
+	.row > * {
+	  border: 1px solid green; }*/
 /*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=style.css.map */

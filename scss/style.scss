@@ -15,6 +15,7 @@
 
 $verde: #A3D783;
 $gris: #F5F5F5;
+$pieCuadro: #EDEEF0;
 
 .icono{
 	font-size: 30px;
@@ -49,6 +50,23 @@ $gris: #F5F5F5;
 .subTitulo{
 	font-size: 40px;
 }
+
+.tablaChica{
+	width: 40%;
+}
+
+.tablaGrande{
+	width: 60%;
+}
+
+
+.pie{
+	background-color: $pieCuadro;
+	background-image: url(../img/overlay.png), url(../img/footer.svg);
+    background-size: 128px 128px,	100% 100%;
+}
+
+
 /*
 
 
@@ -63,13 +81,13 @@ body{
 
 
 /* estilos de prueba */
-/*.container {
-  border: 1px solid red; }
+/*	.container {
+	  border: 1px solid red; }
 
-.row {
-  border: 1px solid blue; }
+	.row {
+	  border: 1px solid blue; }
 
-.row > * {
-  border: 1px solid green; }*/
+	.row > * {
+	  border: 1px solid green; }*/
 
 /*# sourceMappingURL=estilos.css.map */
