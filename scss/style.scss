@@ -92,6 +92,18 @@ p{
 	background-color: $verdeDos;
 }
 
+.textoVerde{
+	color: $verde;
+}
+
+.textoVerde{
+	transition: 0.3s;
+}
+.textoVerde:hover{
+	color: $verdeDos;
+}
+
+
 .icono{
 	font-size: 30px;
 	color: $verde;
@@ -104,7 +116,15 @@ p{
 	color: $verde;
 }
 
+.eleSelect{
+	transition: 0.2s;
+}
 
+.eleSelect:hover{
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	background-color: $verde;
+}
 .animaFondo{
 	transition: 0.3s;
 }
