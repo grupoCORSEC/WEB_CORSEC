@@ -5,6 +5,55 @@
 @media screen and (max-width: 900px) {
   h3.textoVerde {
     font-size: 20px; } }
+/*.backVerde{
+	background-color: rgba(163, 215, 131, 0.1);
+}
+*/
+.backVerde {
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.grisNav {
+  background-color: rgba(248, 249, 250, 0.95); }
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+.jump:hover {
+  animation: bounce 1s; }
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+.aniTiembla:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px; }
+
+p {
+  font-size: 16px; }
+
+.btn-primary {
+  border: #A3D783;
+  background-color: #A3D783; }
+
+.btn-primary:hover {
+  border: #8AB76F;
+  background-color: #8AB76F; }
+
 .icono {
   font-size: 30px;
   color: #A3D783; }
@@ -14,6 +63,12 @@
 
 .anima:hover {
   color: #A3D783; }
+
+.animaFondo {
+  transition: 0.3s; }
+
+.animaFondo:hover {
+  background-color: #F0FFE4; }
 
 .iconFat {
   font-size: 100px; }
@@ -40,6 +95,12 @@
   background-color: #EDEEF0;
   background-image: url(../img/overlay.png), url(../img/footer.svg);
   background-size: 128px 128px,	100% 100%; }
+
+.parallax {
+  background-image: url("../img/spiration-light.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 400px 400px,	100% 100%; }
 
 /*
 
