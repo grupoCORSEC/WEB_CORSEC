@@ -21,7 +21,7 @@ $pieCuadro: #EDEEF0;
 	background-color: rgba(163, 215, 131, 0.1);
 }
 */
-.backVerde{
+.fondoColor{
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -150,6 +150,11 @@ p{
 	
 }
 
+.tl{
+	border-top: 2px solid $verde;
+	
+}
+
 .subTitulo{
 	font-size: 40px;
 }
@@ -180,7 +185,24 @@ p{
 .cardX{
 	min-height: 250px;
 }
+.fondoMundo{
+	background: url(../img/somos.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
+.imgISO{
+	width: 100px;
+}
+
+.imgISOD{
+	width: 87px;
+}
+.cajaImg{
+	margin-bottom: 10px;
+	height: 100px;
+}
 
 /*
 

@@ -9,7 +9,7 @@
 	background-color: rgba(163, 215, 131, 0.1);
 }
 */
-.backVerde {
+.fondoColor {
   background-color: rgba(255, 255, 255, 0.5); }
 
 .grisNav {
@@ -54,6 +54,15 @@ p {
   border: #8AB76F;
   background-color: #8AB76F; }
 
+.textoVerde {
+  color: #A3D783; }
+
+.textoVerde {
+  transition: 0.3s; }
+
+.textoVerde:hover {
+  color: #8AB76F; }
+
 .icono {
   font-size: 30px;
   color: #A3D783; }
@@ -63,6 +72,14 @@ p {
 
 .anima:hover {
   color: #A3D783; }
+
+.eleSelect {
+  transition: 0.2s; }
+
+.eleSelect:hover {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #A3D783; }
 
 .animaFondo {
   transition: 0.3s; }
@@ -102,6 +119,9 @@ p {
   background-position: center;
   background-size: 400px 400px,	100% 100%; }
 
+.cardX {
+  min-height: 250px; }
+
 /*
 
 
@@ -114,14 +134,15 @@ body{
 
 */
 /* estilos de prueba */
-/*	.container {
-	  border: 1px solid red; }
+.container {
+  border: 1px solid red; }
 
-	.row {
-	  border: 1px solid blue; }
+.row {
+  border: 1px solid blue; }
 
-	.row > * {
-	  border: 1px solid green; }*/
+.row > * {
+  border: 1px solid green; }
+
 /*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=style.css.map */
