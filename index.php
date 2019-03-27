@@ -2,10 +2,11 @@
 include("assets/inc/iniPagina.inc");
 include("assets/inc/nav.inc"); 
 ?>
-
+<br>
+<br>
 
 				<!-- CONTENIDO -->
-				<header>
+				<header class="mt-3">
 				  <div class="overlay"></div>
 				  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="animated fadeIn">
 				    <source src="videos/corsecIntroWeb.mp4" type="video/mp4">
@@ -13,8 +14,8 @@ include("assets/inc/nav.inc");
 				  <div class="container h-100">
 				    <div class="d-flex h-100 text-center align-items-center">
 				      <div class="w-100 text-white">
-				        <h1 class="display-4 animated fadeIn delay-1s">Sistemas de Gestión de calidad</h1>
-				        <p class="lead mb-0 animated fadeIn delay-1s">Innovación, eficiencia y competitividad</p>
+				        <h1 class="display-4 animated fadeIn delay-1s">Sistemas de Gestión de Calidad</h1>
+				        <p class="lead2 mb-0 animated fadeIn delay-1s">Innovación, eficiencia y competitividad</p>
 				      </div>
 				    </div>
 				  </div>
@@ -23,31 +24,39 @@ include("assets/inc/nav.inc");
 				<!-- EJES PRINCIPALES -->
 
 				<section class="my-5">
-				  <div class="container">
+				  <div class="container navIcon">
 				    <div class="row">
-				      <div class="col-md-3 mx-auto text-center textoVerde wow fadeInLeft">
+				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInLeft">
+				      	<a href="optEmpre.php">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-user-tie iconFat p-2"></i>
 				      	<p class="h4">Optimización Empresarial</p>
 				      	</div>
+				      	</a>
 				      </div>
-				      <div class="col-md-3 mx-auto text-center textoVerde wow fadeInDown">
+				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInDown">
+				      	<a href="respo.php">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-hands-helping iconFat p-2"></i>
 				      	<p class="h4">Responsabilidad Social Corporativa</p>
 				      	</div>
+				      	</a>
 				      </div>
-				      <div class="col-md-3 mx-auto text-center textoVerde wow fadeInUp">
+				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInUp">
+				      	<a href="#">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-award iconFat p-2"></i>
 				      	<p class="h4">Fortalecimiento Institucional</p>
 				      	</div>
+				      	</a>
 				      </div>
-				      <div class="col-md-3 mx-auto text-center textoVerde wow fadeInRight">
+				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInRight">
+				      	<a href="#">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-user-graduate iconFat p-2"></i>
 				      	<p class="h4">Formación y Capacitación</p>
 				      	</div>
+				      	</a>
 				      </div>
 				    </div>
 				  </div>
@@ -105,12 +114,17 @@ include("assets/inc/nav.inc");
 									<!-- VIDEO -->
 
 									<div class="col-12 col-sm-6 my-2 text-center m-0 p-0 wow fadeInRight">
-										<div class="container h-100 m-0 p-0">
+										<div class="container h-100 m-0 pt-2 px-0">
 				    						<div class="d-flex h-100 text-center align-items-center">
-												<img src="img/video_demo-01.png" class="img-fluid rounded" alt="Video">
+												<img src="img/optimiza.png" class="img-fluid " alt="OPTIMIZACIÓN EMPRESARIAL">
 											</div>
 										</div>
 									</div>
+
+
+									
+
+
 								</div>
 							</div>
 
@@ -121,6 +135,44 @@ include("assets/inc/nav.inc");
 						</div>
 					</div>
 				</article>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-12 text-center m-auto p-0 fondoOptUno" style="height: 380px;">
+							<div class="container h-100">
+								    <div class="d-flex h-100 text-center align-items-center">
+								      <div class="w-100 text-white">
+								       	<div class="container p-0">
+								       		<div class="row h-100">
+
+								       			<div class="col-12 col-md-3 py-2 wow fadeInDown">
+								       				<a href="optEmpre.php">
+								       				<h5 class="fondoNSlideUno d-flex h-100 text-center align-items-center">INCREMENTO DE VENTAS</h5>
+								       				</a>
+								       			</div>
+								       			<div class="col-12 col-md-3 py-2 wow fadeInUp">
+								       				<a href="optEmpre.php">
+								       				<h5 class="fondoNSlideUno d-flex h-100 text-center align-items-center">REDUCCIÓN DE COSTOS Y RIESGOS</h5>
+								       				</a>
+								       			</div>
+								       			<div class="col-12 col-md-3 py-2 wow fadeInDown">
+								       				<a href="optEmpre.php">
+								       				<h5 class="fondoNSlideUno d-flex h-100 text-center align-items-center">SISTEMAS DE GESTIÓN</h5>
+								       				</a>
+								       			</div>
+								       			<div class="col-12 col-md-3 py-2 wow fadeInUp">
+								       				<a href="optEmpre.php">
+								       				<h5 class="fondoNSlideUno d-flex h-100 text-center align-items-center">ANALÍTICA DE NEGOCIOS</h5>
+								       				</a>
+								       			</div>
+
+								       		</div>
+								       	</div>
+								      </div>
+								    </div>
+							</div>
+						</div>
+					</div>
+</div>
 				<!-- ARTICULO -->
 
 				<br>

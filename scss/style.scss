@@ -14,6 +14,8 @@
 
 $verde: #A3D783;
 $verdeDos: #8AB76F;
+$azul: #3ed9c4;
+$azulDos: #2fa393;
 $gris: #F5F5F5;
 $pieCuadro: #EDEEF0;
 
@@ -21,15 +23,57 @@ $pieCuadro: #EDEEF0;
 	background-color: rgba(163, 215, 131, 0.1);
 }
 */
+
+a:link{
+	text-decoration: none;
+}
+
+.fondoNSlide{
+	background-color: rgba(62, 217, 192, 0.5);
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	cursor: pointer;
+}
+
+.fondoNSlideUno{
+	background-color: rgba(62, 217, 192, 0.5);
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	text-decoration: none;
+	color: #FFF;
+	cursor: pointer;
+	-webkit-transition: 0.3s;
+	   -moz-transition: 0.3s;
+	    -ms-transition: 0.3s;
+	     -o-transition: 0.3s;
+	        transition: 0.3s;
+}
+.fondoNSlideUno:hover{
+	background-color: rgba(31, 109, 98, 0.5);
+}
+
+
 .fondoColor{
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
+.fondoColorNegro{
+	background-color: rgba(0, 0, 0, 0.5);
+}
 
 .grisNav{
 	background-color: rgba(248, 249, 250, 0.95);
 }
-
+.lead2{
+	font-weight: lighter;
+	font-size: 30px;
+}
+.lead3{
+	font-weight: lighter;
+	font-size: 50px;
+}
 
 
 @keyframes bounce {
@@ -96,11 +140,21 @@ p{
 	color: $verde;
 }
 
+.textoBlanco{
+	color: #FFF;
+	text-shadow: 1px 1px 0 #000;
+}
+
 .textoVerde{
 	transition: 0.3s;
 }
 .textoVerde:hover{
 	color: $verdeDos;
+}
+
+.navIcon a:link, i{
+	text-decoration: none;
+	color: $azul;
 }
 
 
@@ -182,6 +236,34 @@ p{
   background-size: 400px 400px,	100% 100%;
 }
 
+.fondoImgEmpre{
+  background: url(../img/backVentas.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoRespo{
+  background: url(../img/backRespo.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.soloGris{
+  background: url(../img/soloGris.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoLineas{
+	background: url(../img/fondoRespoLineas.svg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .cardX{
 	min-height: 250px;
 }
@@ -192,12 +274,28 @@ p{
 	background-size: cover;
 }
 
+.fondoOptUno{
+	background: url(../img/optEmpreImgDos.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.fondoOpt{
+	background: url(../img/optEmpre.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .imgISO{
 	width: 100px;
+	cursor: pointer;
 }
 
 .imgISOD{
 	width: 87px;
+	cursor: pointer;
 }
 .cajaImg{
 	margin-bottom: 10px;
@@ -225,6 +323,6 @@ body{
 	  border: 1px solid blue; }
 
 	.row > * {
-	  border: 1px solid green; }*/
-
+	  border: 1px solid green; }
+*/
 /*# sourceMappingURL=estilos.css.map */
