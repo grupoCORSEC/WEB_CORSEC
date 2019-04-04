@@ -1,7 +1,10 @@
 @charset "UTF-8";
 @media screen and (max-width: 576px) {
   h3.subTitulo {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  p.tableHorario {
+    height: 65px; } }
 @media screen and (max-width: 900px) {
   h3.textoVerde {
     font-size: 20px; } }
@@ -45,6 +48,10 @@ a:link {
 .grisNav {
   background-color: rgba(248, 249, 250, 0.95); }
 
+.leadUno {
+  font-weight: lighter;
+  font-size: 20px; }
+
 .lead2 {
   font-weight: lighter;
   font-size: 30px; }
@@ -52,6 +59,9 @@ a:link {
 .lead3 {
   font-weight: lighter;
   font-size: 50px; }
+
+.cuadroCert {
+  height: 300px; }
 
 @keyframes bounce {
   0%, 20%, 60%, 100% {
@@ -91,6 +101,15 @@ p {
 .btn-primary:hover {
   border: #8AB76F;
   background-color: #8AB76F; }
+
+.fondoVerde {
+  background-color: #A3D783; }
+
+.fondoGris {
+  background-color: #F5F5F5; }
+
+.fondoAzul {
+  background-color: #3ed9c4; }
 
 .textoVerde {
   color: #A3D783; }
@@ -180,6 +199,36 @@ p {
   -o-background-size: cover;
   background-size: cover; }
 
+.fondoForta {
+  background: url(../img/backForta.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fondoCapa {
+  background: url(../img/backCapa.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fondoTi {
+  background: url(../img/backTi.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fondoNRespo {
+  background: url(../img/backNRespo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fondoNoticias {
+  background: url(../img/backNoticias.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .soloGris {
   background: url(../img/soloGris.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -192,25 +241,25 @@ p {
   -o-background-size: cover;
   background-size: cover; }
 
+.fondoLineGris {
+  background: url(../img/fondoRespoLineGris.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .cardX {
   min-height: 250px; }
 
 .fondoMundo {
   background: url(../img/somos.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .fondoOptUno {
   background: url(../img/optEmpreImgDos.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .fondoOpt {
   background: url(../img/optEmpre.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
   background-size: cover; }
 
 .imgISO {
@@ -224,6 +273,19 @@ p {
 .cajaImg {
   margin-bottom: 10px;
   height: 100px; }
+
+.iconCert {
+  width: 150px; }
+
+.iconCert2 {
+  width: 180px; }
+
+.iconCert3 {
+  width: 130px; }
+
+.tableHorario {
+  margin: 0px 20px;
+  height: 50px; }
 
 /*
 

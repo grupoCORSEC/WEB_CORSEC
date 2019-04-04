@@ -7,6 +7,7 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script src="js/wow.min.js"></script>
+	
               <script>
               new WOW().init();
               </script>

@@ -22,19 +22,19 @@
 			        <div class="dropdown-menu animated fadeIn " aria-labelledby="navbarDropdown">
 			          <a class="dropdown-item eleSelect p-2" href="optEmpre.php">Optimización Empresarial</a>
 			          <a class="dropdown-item eleSelect p-2" href="respo.php">Responsabilidad Social Empresarial</a>
-			          <a class="dropdown-item eleSelect p-2" href="#">Fortalecimiento Institucional</a>
-			          <a class="dropdown-item eleSelect p-2" href="#">Formación y Capacitación</a>
-			          <a class="dropdown-item eleSelect p-2" href="#">Tecnologías de la Información</a>
+			          <a class="dropdown-item eleSelect p-2" href="forta.php">Fortalecimiento Institucional</a>
+			          <a class="dropdown-item eleSelect p-2" href="capa.php">Formación y Capacitación</a>
+			          <a class="dropdown-item eleSelect p-2" href="ti.php">Tecnologías de la Información</a>
 			        </div>
 			      </li>
 			      <li class="nav-item p-1 eleSelect">
-			        <a class="nav-link" href="#">RESPONSABILIDAD CORPORATIVA</a>
+			        <a class="nav-link" href="nRespo.php">RESPONSABILIDAD SOCIAL</a>
 			      </li>
 			      <li class="nav-item p-1 eleSelect">
-			        <a class="nav-link" href="#">ARTÍCULOS Y NOTICIAS</a>
+			        <a class="nav-link" href="noticias.php">ARTÍCULOS Y NOTICIAS</a>
 			      </li>
 			      <li class="nav-item p-1 eleSelect">
-			        <a class="nav-link" href="#">CONTACTO</a>
+			        <a class="nav-link" href="contacto.php">CONTACTO</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="https://www.facebook.com/www.grupocorsec.com.mx/"><i class="fab fa-facebook-square icono animated infinite heartBeat"></i></a>

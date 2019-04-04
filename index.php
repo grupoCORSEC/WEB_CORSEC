@@ -43,7 +43,7 @@ include("assets/inc/nav.inc");
 				      	</a>
 				      </div>
 				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInUp">
-				      	<a href="#">
+				      	<a href="forta.php">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-award iconFat p-2"></i>
 				      	<p class="h4">Fortalecimiento Institucional</p>
@@ -51,7 +51,7 @@ include("assets/inc/nav.inc");
 				      	</a>
 				      </div>
 				      <div class="col-md-3 mx-auto text-center azulColor wow fadeInRight">
-				      	<a href="#">
+				      	<a href="capa.php">
 				      	<div class="aniTiembla">
 				      	<i class="fas fa-user-graduate iconFat p-2"></i>
 				      	<p class="h4">Formación y Capacitación</p>
@@ -427,7 +427,7 @@ include("assets/inc/nav.inc");
 										    	<p class="card-text text-left">Aprende los requisitos de estructura e implementación de las normas ISO, así como Herramienta de Calidad y Procesos, para la Gestión de Proyecto.</p>										    	
 										  	</div>
 										  	<div class="card-footer text-center">
-										    	<a href="#" class="btn btn-primary">Descubre Click aquí</a>
+										    	<a href="capa.php" class="btn btn-primary">Descubre Click aquí</a>
 										    </div>
 										  </div>
 									</div>
@@ -439,7 +439,7 @@ include("assets/inc/nav.inc");
 										    	<p class="card-text text-left">Desarrolla estrategias en el área comercial con estructura y fuerza de ventas, procesos relacionados con el cliente.</p>
 										  </div>
 										  <div class="card-footer text-center">
-										    	<a href="#" class="btn btn-primary">Descubre Click aquí</a>
+										    	<a href="capa.php" class="btn btn-primary">Descubre Click aquí</a>
 										  </div>
 										</div>
 									</div>
@@ -452,7 +452,7 @@ include("assets/inc/nav.inc");
 										    <p class="card-text text-left">Conviértete en un experto de la metodología para asesorar a BLACK BELT (BB) y GREEN BELT (GB). Nivel staff de Dirección.</p>
 										  </div>
 										  <div class="card-footer text-center">
-										    	<a href="#" class="btn btn-primary">Descubre Click aquí</a>
+										    	<a href="capa.php" class="btn btn-primary">Descubre Click aquí</a>
 										  </div>
 										</div>
 									</div>
@@ -464,7 +464,7 @@ include("assets/inc/nav.inc");
 										    <p class="card-text text-left">Conoce nuestro amplio catálogo para el desarrollo de competencias y conocimientos.</p>
 										  </div>
 										  <div class="card-footer text-center">
-										    	<a href="#" class="btn btn-primary">Descubre Click aquí</a>
+										    	<a href="capa.php" class="btn btn-primary">Descubre Click aquí</a>
 										  </div>
 										</div>
 									</div>

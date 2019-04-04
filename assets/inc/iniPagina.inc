@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/videoSlide.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/all.css">
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
 	<title>CORSEC Consultores en responsabilidad social empresarial y calidad</title>
 	<meta name="description" content="CORSEC Consultores en responsabilidad social empresarial y calidad" />
 </head>

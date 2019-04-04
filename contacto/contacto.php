@@ -68,11 +68,11 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);
 
 echo '<script> alert("¡Gracias, pronto estaremos en contacto!");</script>';
-echo "<meta http-equiv='refresh' content='0;url=http://www.corsec.com.mx/corsec'>";
+echo "<meta http-equiv='refresh' content='0;url=http://www.corsec.com.mx'>";
 
 }else{
 	echo "<script> alert('No puedes ver esta pagina!');</script>";
-	echo "<script> window.location='http://www.corsec.com.mx/corsec';</script>";
+	echo "<script> window.location='http://www.corsec.com.mx';</script>";
 }
 
  ?>
