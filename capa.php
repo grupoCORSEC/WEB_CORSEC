@@ -604,7 +604,7 @@ include("assets/inc/nav.inc");
 	</div>
 </div>
 
-<div class="container-fluid fondoAzul">
+<!-- <div class="container-fluid fondoAzul">
 	<div class="row">
 
 		<div class="container">
@@ -667,7 +667,7 @@ include("assets/inc/nav.inc");
 		</div>
 	</div>
 </div>
-
+ -->
 <div class="container-fluid fondoAzul">
 	<div class="row">
 

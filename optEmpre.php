@@ -450,6 +450,22 @@ include("assets/inc/nav.inc");
 	</div>
 </div>
 
+<div class="container-fluid fondoLineas">
+	<div class="row">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-6 mx-auto wow fadeInLeft my-3 mb-5">
+					<img class="img-fluid" src="img/sasisopa.svg" alt="SASISOPA">
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+
 
 <div class="container">
 	<div class="row">

@@ -8,6 +8,9 @@
 	p.tableHorario{
 	height: 65px;
 	}
+	h4.lead2{
+		font-size: 20px;
+	}
 
 }
 
@@ -23,6 +26,7 @@ $azul: #3ed9c4;
 $azulDos: #2fa393;
 $gris: #F5F5F5;
 $pieCuadro: #EDEEF0;
+$otroGris: #121217;
 
 /*.backVerde{
 	background-color: rgba(163, 215, 131, 0.1);
@@ -33,6 +37,15 @@ a:link{
 	text-decoration: none;
 }
 
+.textoAzul{
+	color: $azul;
+}
+.fondoOtroGris{
+	background-color: $otroGris;
+}
+.iconNone, a:hover{
+	color: #FFF !important;
+}
 .fondoNSlide{
 	background-color: rgba(62, 217, 192, 0.5);
 	padding: 10px;
@@ -71,6 +84,12 @@ a:link{
 .grisNav{
 	background-color: rgba(248, 249, 250, 0.95);
 }
+
+.leadMini{
+	font-weight: lighter;
+	font-size: 18px;
+}
+
 .leadUno{
 	font-weight: lighter;
 	font-size: 20px;
@@ -296,6 +315,12 @@ p{
 	background-size: cover;
 }
 
+.fondoSeguridadTi{
+  background: url(../img/SecureTi.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 .fondoNRespo{
   background: url(../img/backNRespo.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -349,6 +374,16 @@ p{
 	background-size: cover;
 }
 
+.fondoTiSoporte{
+	background: url(../img/backTi_Soporte.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fondoTiX{
+	background: url(../img/tiCorsec.svg) no-repeat center center fixed;
+	background-size: cover;
+}
+
 .imgISO{
 	width: 100px;
 	cursor: pointer;
@@ -358,9 +393,25 @@ p{
 	width: 87px;
 	cursor: pointer;
 }
+
+
+.imgISO2{
+	width: 150px;
+	cursor: pointer;
+}
+
+.imgISOD2{
+	width: 137px;
+	cursor: pointer;
+}
+
 .cajaImg{
 	margin-bottom: 10px;
 	height: 100px;
+}
+.cajaImg2{
+	margin-bottom: 5px;
+	height: 150px;
 }
 
 .iconCert{
@@ -403,6 +454,6 @@ body{
 	  border: 1px solid blue; }
 
 	.row > * {
-	  border: 1px solid green; }
-*/
+	  border: 1px solid green; }*/
+
 /*# sourceMappingURL=estilos.css.map */

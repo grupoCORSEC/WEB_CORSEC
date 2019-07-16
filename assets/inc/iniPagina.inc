@@ -9,8 +9,17 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/all.css">
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.2"></script>
-	<title>CORSEC Consultores en responsabilidad social empresarial y calidad</title>
-	<meta name="description" content="CORSEC Consultores en responsabilidad social empresarial y calidad" />
+	<title>GRUPO CORSEC Consultores en responsabilidad social empresarial y calidad</title>
+	<meta name="description" content="Responsabilidad social, Calidad, Cemefi, CEMEFI, ESR, GRUPO CORSEC, CORSEC, corsec, Consultores en responsabilidad social, empresarial y calidad" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139427578-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-139427578-1');
+	</script>
 </head>
 <body class="parallax">
 	<div class="container-fluid fondoColor">

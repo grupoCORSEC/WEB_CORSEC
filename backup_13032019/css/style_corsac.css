@@ -1,0 +1,44 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-color: #424345;
+}
+
+#container{
+	height: 1199px;
+	width: 1408px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../imagenes/imagen-caja.jpg);
+}
+
+#botones{
+	height: 90px;
+	width: 360px;
+	margin-right: 0px;
+	float: right;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #00675E;
+}
+#tabla{
+	height: 1000px;
+	width: 1040px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+}
+
+#redessociales{
+	float: right;
+	height: 90px;
+	width: 310px;
+	margin-right: 0px;
+}

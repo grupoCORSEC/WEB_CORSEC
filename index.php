@@ -14,8 +14,139 @@ include("assets/inc/nav.inc");
 				  <div class="container h-100">
 				    <div class="d-flex h-100 text-center align-items-center">
 				      <div class="w-100 text-white">
-				        <h1 class="display-4 animated fadeIn delay-1s">Sistemas de Gestión de Calidad</h1>
-				        <p class="lead2 mb-0 animated fadeIn delay-1s">Innovación, eficiencia y competitividad</p>
+				        <h1 class="display-4 animated fadeIn delay-1s">Sistemas de Gestión</h1>
+				        <p class="lead2 mb-0 animated fadeIn delay-1s">Innovación, eficiencia y competitividad<p>
+
+				        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <div class="carousel-inner" role="listbox">
+						    <div class="carousel-item active">
+
+							    <div class="container-fluid">
+									<div class="row">
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">				
+											<img class="img-fluid imgISOD2" src="img/iso2/9001_2015.svg" alt="Logo ISO 9001:2015 Calidad">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Calidad</h4>
+											</a>
+										</div>
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">
+											<img class="img-fluid imgISO2" src="img/iso2/31000.svg" alt="Logo ISO 31000 Riesgos">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Riesgos</h4>
+											</a>
+										</div>
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">
+											<img class="img-fluid imgISO2" src="img/iso2/14001_2015.svg" alt="Logo ISO 14001:2015 Medio Ambiente">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Medio Ambiente</h4>
+											</a>
+										</div>
+									</div>
+								</div>
+						    </div>
+
+						    <div class="carousel-item">
+						      		<div class="container-fluid">
+									<div class="row">
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">
+											<img class="img-fluid imgISOD2" src="img/iso2/50001.svg" alt="Logo ISO 50001 Energía">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Energía</h4>
+											</a>
+										</div>
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">				
+											<img class="img-fluid imgISOD2" src="img/iso2/9001_2015.svg" alt="Logo ISO 9001:2015 Calidad">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Calidad</h4>
+											</a>
+										</div>
+										<div class="col-4">
+											<a href="optEmpre.php" class="iconNone">
+											<div class="cajaImg2 d-flex justify-content-center align-items-center">
+											<img class="img-fluid imgISO2" src="img/iso2/45001_2016.svg" alt="Logo ISO 45001:2016 Seguridad Laboral">
+											</div>
+											<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Seguridad Laboral</h4>
+											</a>
+										</div>
+									</div>
+								</div>
+						    </div>
+
+
+						  </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+
+				        <!-- <div class="col-md-12 wow fadeInUp py-3">
+							<div class="container-fluid">
+								<div class="row">
+
+									<div class="col-6 col-lg-2 text-center">
+										
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">				
+										<img class="img-fluid imgISOD2" src="img/iso2/9001_2015.svg" alt="Logo ISO 9001:2015 Calidad">
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Calidad</h4>
+									</div>
+
+									<div class="col-6 col-lg-2 text-center">
+										
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">
+										<img class="img-fluid imgISOD2" src="img/iso2/22000.svg" alt="Logo ISO 22000 Seguridad Alimentari">						
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Seguridad Alimentaria</h4>
+									</div>
+
+									<div class="col-6 col-lg-2 text-center">
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">
+										<img class="img-fluid imgISO2" src="img/iso2/14001_2015.svg" alt="Logo ISO 14001:2015 Medio Ambiente">
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Medio Ambiente</h4>
+									</div>
+
+									<div class="col-6 col-lg-2 text-center">						
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">
+										<img class="img-fluid imgISOD2" src="img/iso2/50001.svg" alt="Logo ISO 50001 Energía">
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Energía</h4>
+									</div>
+
+									<div class="col-6 col-lg-2 text-center">						
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">
+										<img class="img-fluid imgISO2" src="img/iso2/31000.svg" alt="Logo ISO 31000 Riesgos">
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Riesgos</h4>
+									</div>
+
+									<div class="col-6 col-lg-2 text-center">
+										<div class="cajaImg2 d-flex justify-content-center align-items-center">
+										<img class="img-fluid imgISO2" src="img/iso2/45001_2016.svg" alt="Logo ISO 45001:2016 Seguridad Laboral">
+										</div>
+										<h4 class="lead2 d-flex justify-content-center align-items-center" style="height: 60px;">Seguridad Laboral</h4>
+									</div>
+								</div>
+							</div>
+
+						</div> -->
+
+
 				      </div>
 				    </div>
 				  </div>
@@ -348,9 +479,9 @@ include("assets/inc/nav.inc");
 										<br>
 										<h3 class="textoVerde">Profesionalización de Pymes</h3>
 										<br>
-										<p class="text-justify">Con el objetivo de reforzar su expectativa de desarrollo, crecimiento y evolución en el tiemp profesionalizamos la gestión comercial, administra-tiva y operativa de nuestros clientes.</p>
+										<p class="text-justify">Con el objetivo de reforzar su expectativa de desarrollo, crecimiento y evolución en el tiempo profesionalizamos la gestión comercial, administrativa y operativa de nuestros clientes.</p>
 										<li>Plan de Negocios</li>
-										<li>Estructura de la Estrategía</li>
+										<li>Estructura de la Estrategia</li>
 										<li>Análisis Integral para Identificar Oportunidades de Eficiencia, Rentabilidad y Productividad</li>
 										<li>Innovación</li>
 										<li>Reducción de Costos e Incremento de ventas</li>

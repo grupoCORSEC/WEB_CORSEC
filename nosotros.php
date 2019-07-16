@@ -49,7 +49,7 @@ include("assets/inc/nav.inc");
 													</div>
 												</div>
 												<div class="col-md-8 vl my-4 wow fadeInDown">
-													<p class="text-justify">Brindar innovación, productividad y competitividad, a partir del incremento de ventas y reducción de costos con la implementación de sistemas de gestión integral, optimización de procesos y análisis de riesgos.</p>
+													<p class="text-justify">Brindar innovación, productividad y competitividad, a partir del incremento de ventas y reducción de costos con la implementación de sistemas de gestión integral, optimización de procesos, análisis de riesgos y responsabilidad social.</p>
 												</div>
 												<div class="col-md-4 my-4 wow fadeInLeft">
 													<div class="container h-100">
